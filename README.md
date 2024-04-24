@@ -45,7 +45,7 @@ The dashboard provides insights into key performance indicators (KPIs) related t
   2.	Attrition by Education Field: A bar chart that displays the attrition rates by education field.
   3.	Attrition Rate by Gender for each age groups: The multiple donut charts display how many employees left the company in each of the age groups, the distribution by gender expressed in headcounts and in percentages.
   4.	No of Employees by Age Group: A stacked bar chart that displays the headcount by age group and by gender.
-  5.	Job Satisfaction Rating: A matrix chart that presents the job satisfaction of employees for each role, 1 being the lowest rating and 4 the highest. This is a heat map where lighter shades represent lower average satisfaction scores (closer to 1) and darker shades represent higher average scores (closer to 4). The chart allows users to quickly see which jobs have the highest and lowest average satisfaction scores.
+  5.	Job Satisfaction Rating: A matrix chart that presents the distribution of job satisfaction ratings in that particular job. 1 is the lowest(not satisfied at all) rating and 4 the highest (fully satisfied). This is a heat map where lighter shades represent lower count of ratings and darker shades represent higher count of ratings. For example: For Sales Executives the darker colour in column 1 means that with 69 (21%) employees are not satisfied with their job, which is quite high. 
      
 ### Functions Used ###
 - Aggregation functions (DAX language): created New Measures
