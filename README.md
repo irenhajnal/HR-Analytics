@@ -12,7 +12,7 @@
 
 
 ### Project Overview
-Purpose of the project is to develop a dynamic and interactive dashboard to provide insights into the attrition rates.
+Purpose of the project is to develop a dynamic and interactive dashboard to provide insights into the attrition (turnover) rates.
 
 <img width="722" alt="image" src="https://github.com/irenhajnal/HR-Analytics/assets/122035130/84362595-27f0-4394-b950-298056445eba">
 
@@ -36,7 +36,7 @@ The dashboard provides insights into key performance indicators (KPIs) related t
       - Active Employees: total heacount of active employees 
  2. Attrition Overview:
       - Attrition: total headcount of employees which have left the company
-      - Attrition Rate: percentate (%) of the employees which have left the company
+      - Attrition Rate: percentage (%) of the employees which have left the company
 3. Age Overview
       - Average Age:  average age of active employees
      
@@ -45,7 +45,7 @@ The dashboard provides insights into key performance indicators (KPIs) related t
   2.	Attrition by Education Field: A bar chart that displays the attrition rates by education field.
   3.	Attrition Rate by Gender for each age groups: The multiple donut charts display how many employees left the company in each of the age groups, the distribution by gender expressed in headcounts and in percentages.
   4.	No of Employees by Age Group: A stacked bar chart that displays the headcount by age group and by gender.
-  5.	Job Satisfaction Rating: A matrix that presents the satisfaction of employees for each role. This is a heat map
+  5.	Job Satisfaction Rating: A matrix chart that presents the job satisfaction of employees for each role, 1 being the lowest rating and 4 the highest. This is a heat map where lighter shades represent lower average satisfaction scores (closer to 1) and darker shades represent higher average scores (closer to 4). The chart allows users to quickly see which jobs have the highest and lowest average satisfaction scores.
      
 ### Functions Used ###
 - Aggregation functions (DAX language): created New Measures
@@ -59,21 +59,21 @@ The analysis results are summarized as follows:
 1. The total number of employees is 1,470 out of which 1,233 are active.
 2. The attrition rate is 16.12%.
 3. The average age of employees is 37 years old.
-4. The department with the highest attrition rate is Human Resources (72.55%) followed by Engineering (56.12%).
-5. The age group with the highest attrition rate is 45-54 (64%).
-6. The education field with the highest attrition rate is Humanities (72.55%).
-7. Sales Representative has the highest number of employees (83) followed by Research Scientist (292) and Laboratory Technician (259).
+4. The department with the highest attrition rate is Research and Developement (56.12%) followed by Sales (38.82%).
+5. The age group with the highest attrition rate is Under 25 (39.18%) followed by 25-34 (20.22%).
+6. The education field with the highest attrition rate is Human Resources (25.93%).
+7. Sales Executive has the highest number of employees (326) followed by Research Scientist (292) and Laboratory Technician (259).
 
 ### Recomendations
-**1. Investigate High Attrition Rates:** The dashboard highlights a concerningly high overall attrition rate (16.12%). Investigate the reasons behind this, particularly in departments like HR (72.55%) and Engineering (56.12%). Conducting exit interviews or stay interviews with employees who are leaving or considering leaving can shed light on specific factors driving attrition.
+**1. Investigate High Attrition Rates:** The dashboard highlights a concerningly high overall attrition rate (16.12%). According to experts, healthy organizations have an attrition rate of 10% or less. Investigate the reasons behind this, particularly in departments like R&D (56.12%) and Sales (38.82%). Conducting exit interviews or stay interviews with employees who are leaving or considering leaving can shed light on specific factors driving attrition.
 
-**2. Focus on Retention Strategies:** Once the reasons for high attrition are understood, the HR Director can develop targeted retention strategies. This might involve improving compensation and benefits packages, offering more career development opportunities, or creating a more positive work-life balance for employees.
+**2. Focus on Retention Strategies:** Once the reasons for high attrition are understood, the HR should develop targeted retention strategies. This might involve improving compensation and benefits packages, offering more career development opportunities, or creating a more positive work-life balance for employees.
 
-**3. Address Attrition in Specific Age Groups and Education Fields:**  The data suggests higher attrition rates for employees aged 45-54 (64%) and those with a background in Humanities (72.55%).  Delve deeper to understand why these specific groups are leaving.  Are there growth opportunities lacking for these employees? Are they feeling undervalued?
+**3. Address Attrition in Specific Age Groups and Education Fields:**  The data suggests higher attrition rates for employees aged 24 or less (39.18%) and those with a background in Human Resources (25.93%).  Delve deeper to understand why these specific groups are leaving.  Are there growth opportunities lacking for these employees? Are they feeling undervalued?
 
-**4. Analyze Sales Representative Role:**  While not directly related to attrition, the high number of employees in the Sales Representative role (83) compared to others (Research Scientist: 292, Laboratory Technician: 259) is worth exploring.  Are there opportunities to streamline processes or optimize the structure of the sales team?
+**4. Analyze Sales Representative Role:**  While not directly related to attrition, the high number of employees in the Sales Executive role (326) compared to others (Research Scientist: 292, Laboratory Technician: 259) is worth exploring.  Are there opportunities to streamline processes or optimize the structure of the sales team?
 
-**5. Improve HR Department Stability:**   The  eye-catching  attrition rate within the HR department itself (72.55%) requires immediate attention.  This could be impacting the overall effectiveness of HR initiatives.  Investigate why employees are leaving their own department and take steps to improve its stability and morale.
+**5. Improve HR Department Stability:**   The  eye-catching  attrition rate within the Human Resources educational field itself (25.93%) requires immediate attention.  This could be impacting the overall effectiveness of HR initiatives.  Investigate why employees are leaving the department and take steps to improve its stability and morale.
 
 
 Reference [Youtube](https://www.youtube.com/watch?v=-sOHVl_iCHA&list=PLO9LeSU_vHCWUvkE1FrGeNxSve7YtJrYl)
